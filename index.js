@@ -2,7 +2,6 @@
 
 let cats = ["Milo", "Otis", "Garfield"];
 
-
 destructivelyAppendCat= (name)=> cats.push(name);
   
 destructivelyPrependCat = (name) => cats.unshift(name);
